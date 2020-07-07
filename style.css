@@ -19,3 +19,32 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.catw, .catb, .cats{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 15px;
+}
+.catw{
+    background-image: linear-gradient(45deg, rgb(245, 159, 53), rgb(248, 214, 121));
+}
+.catb{
+    background-image: linear-gradient(45deg, rgb(160, 36, 160), rgb(231, 98, 231));
+}
+.cats{
+    background-image: linear-gradient(45deg, rgb(71, 71, 199), rgb(142, 142, 241));
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+}
+#subscribe{
+    width: 700px;
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
